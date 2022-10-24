@@ -1,0 +1,27 @@
+{
+  "name": "@alvin-cli-dev/utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "chenqingxian\n\n\n\ngit config --global user.name chenqingxian <alvin95@163.com>",
+  "homepage": "https://github.com/Alvin-cqx/scaffold#readme",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alvin-cqx/scaffold.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/utils.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Alvin-cqx/scaffold/issues"
+  },
+  "dependencies": {}
+}
