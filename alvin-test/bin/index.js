@@ -14,7 +14,7 @@ const argv = require('process').argv
 const command = argv[2]
 
 if (command.startsWith('--') || command.startsWith('-')) {
-    let version = command.replace(/--|-g/, '')
+    // let version = command.replace(/--|-g/, '')
     console.log('版本号:', config.version)
 } else {
     // 截取命令行后面的参数 --name test-name
